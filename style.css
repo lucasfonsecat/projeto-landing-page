@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px 50px 150px;
+}
+
+.icones{
+    margin: 0px 15px 0px 0px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 80px 120px 80px 150px;
+}
+
+#titulovideo{
+    color: #247BA0;
+    font-size: 30px;
+    padding: 15px 0px 0px 0px;
+}
+
+#textovideo{
+    font-size: 15px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 80px;
+}
+
+#titulocarrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+} 
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#cards{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#leonardo{
+    margin-left: 110px;
+    margin-right: 5px;
+}
+
+#bruna{
+    display: none;
+    margin-right: 100px;
+}
+
+.seta{
+margin-top: 50px;
+cursor: pointer;
+} 
+
+.seta:hover{
+    transform: translateY(-7px); 
+    transition-duration: 1s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 45px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(21, 154, 243);
+    color:aliceblue;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgb(1, 43, 43);
+    transition-duration: 1s;
+}
